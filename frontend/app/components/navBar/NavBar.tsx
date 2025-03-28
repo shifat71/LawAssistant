@@ -1,10 +1,9 @@
 "use client"
 import React, { useContext } from 'react';
 import styles from './navbar.module.css';
-import ThemeToggle from './ThemeToggle';
-import { ThemeContext } from '../contextProvider/ThemeContextProvider';
+import ThemeToggle from '../themeToggle/ThemeToggle';
+import { ThemeContext } from '../../contextProvider/ThemeContextProvider';
 const NavBar = () => {
-    const { theme } = useContext(ThemeContext);
     return (
         <div className={styles.navbar}>
             <div className={styles.logo}>Logo</div>

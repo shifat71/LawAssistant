@@ -1,7 +1,7 @@
 import ChatInterface from './components/ChatInterface';
-import NavBar from './components/NavBar';
-import SideBar from './components/SideBar';
-import TextEditor from './components/TextEditor';
+import NavBar from './components/navBar/NavBar';
+import SideBar from './components/sideBar/SideBar';
+import TextEditor from './components/textEditor/TextEditor';
 import styles from './home.module.css'
 export default function Home() {
   return (
