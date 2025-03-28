@@ -5,9 +5,9 @@
     align-items: center;
     padding: 0 20px;
     height: 60px;
-    background-color: var(--softBg);
+    /* background-color: var(--softBg); */
     color: var(--textColor);
-    border-bottom: 1px solid var(--borderColor);
+    /* border-bottom: 1px solid var(--borderColor); */
 }
 
 .logo {
