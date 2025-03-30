@@ -11,6 +11,7 @@
     /* Neutral Gray (tailwind's gray-500) */
     --borderColor: #e5e7eb;
     /* Tailwind's gray-200 – subtle but visible */
+     animation: fadeIn 0.5s ease-in-out;
 }
 
 * {
@@ -65,4 +66,13 @@ a {
     max-width: 1536px;
     margin: 0 auto;
     background-color: var(--bg);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

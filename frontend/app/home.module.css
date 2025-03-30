@@ -2,3 +2,19 @@
     min-height: 100vh;
     display: flex;
 }
+@media (max-width: 600px) {
+    .mainBottom input{
+        flex: none;
+        width: 150px;
+    }
+    .mainBottom img{
+        width: 20px;
+    }
+    .searchBox{
+        padding: 5px 10px;
+    }
+    .serchBoxDiv{
+        gap: 5px;
+    }
+
+}
