@@ -1,0 +1,45 @@
+2025-04-05 18:58:07,843 - INFO - Starting scraping from page 1 to 704
+2025-04-05 18:58:07,880 - INFO - Fetching page 1, attempt 1
+2025-04-05 18:58:08,387 - INFO - Saved content to data/1.md
+2025-04-05 18:58:09,393 - INFO - Fetching page 2, attempt 1
+2025-04-05 18:58:10,097 - INFO - Saved content to data/2.md
+2025-04-05 18:58:11,103 - INFO - Fetching page 3, attempt 1
+2025-04-05 18:58:11,419 - INFO - Saved content to data/3.md
+2025-04-05 18:58:12,425 - INFO - Fetching page 4, attempt 1
+2025-04-05 18:58:13,467 - INFO - Saved content to data/4.md
+2025-04-05 18:58:14,473 - INFO - Fetching page 5, attempt 1
+2025-04-05 18:58:15,093 - INFO - Saved content to data/5.md
+2025-04-05 18:58:16,099 - INFO - Fetching page 6, attempt 1
+2025-04-05 18:58:16,454 - INFO - Saved content to data/6.md
+2025-04-05 18:58:17,458 - INFO - Fetching page 7, attempt 1
+2025-04-05 18:58:17,799 - INFO - Saved content to data/7.md
+2025-04-05 18:58:18,805 - INFO - Fetching page 8, attempt 1
+2025-04-05 18:58:19,941 - INFO - Saved content to data/8.md
+2025-04-05 19:03:12,562 - INFO - Starting scraping from page 1 to 2
+2025-04-05 19:03:12,573 - INFO - Fetching page 1, attempt 1
+2025-04-05 19:03:13,567 - INFO - Saved content to data/1.md
+2025-04-05 19:03:14,572 - INFO - Fetching page 2, attempt 1
+2025-04-05 19:03:14,904 - INFO - Saved content to data/2.md
+2025-04-05 19:03:15,909 - INFO - Scraping completed!
+2025-04-05 19:04:37,093 - INFO - Starting scraping from page 1 to 2
+2025-04-05 19:04:37,103 - INFO - Fetching page 1, attempt 1
+2025-04-05 19:04:37,705 - INFO - Saved content to data/1.md
+2025-04-05 19:04:38,711 - INFO - Fetching page 2, attempt 1
+2025-04-05 19:04:39,139 - INFO - Saved content to data/2.md
+2025-04-05 19:04:40,145 - INFO - Scraping completed!
+2025-04-05 19:05:37,928 - INFO - Starting scraping from page 1 to 2
+2025-04-05 19:05:37,934 - INFO - Fetching page 1, attempt 1
+2025-04-05 19:05:52,422 - INFO - Starting scraping from page 1 to 2
+2025-04-05 19:05:52,427 - INFO - Fetching page 1, attempt 1
+2025-04-05 19:05:54,497 - INFO - Saved content to data/1.md
+2025-04-05 19:05:55,503 - INFO - Fetching page 2, attempt 1
+2025-04-05 19:05:56,149 - INFO - Saved content to data/2.md
+2025-04-05 19:05:57,155 - INFO - Scraping completed!
+2025-04-05 19:07:04,853 - INFO - Starting scraping from page 1 to 2
+2025-04-05 19:07:04,860 - INFO - Fetching page 1, attempt 1
+2025-04-05 19:07:08,158 - INFO - Fetching page 2, attempt 1
+2025-04-05 19:07:09,556 - INFO - Scraping completed!
+2025-04-05 19:07:21,983 - INFO - Starting scraping from page 1 to 2
+2025-04-05 19:07:21,988 - INFO - Fetching page 1, attempt 1
+2025-04-05 19:07:23,331 - INFO - Fetching page 2, attempt 1
+2025-04-05 19:07:24,932 - INFO - Scraping completed!
