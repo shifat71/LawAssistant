@@ -107,7 +107,7 @@ def main():
     os.makedirs(data_dir, exist_ok=True)
     
     # Process pages 1 through 5
-    for page_number in range(1, 6):
+    for page_number in range(1262, 1263):
         url = f"http://bdlaws.minlaw.gov.bd/act-print-{page_number}.html"
         output_file = os.path.join(data_dir, f"law-{page_number}.md")
         

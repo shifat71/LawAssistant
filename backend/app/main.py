@@ -1,4 +1,5 @@
 import os
+import sys
 from typing import List, Dict, Any
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -6,9 +7,13 @@ from pydantic import BaseModel
 import glob
 from contextlib import asynccontextmanager
 
-from backend.app.services.openai_service import generate_embeddings, generate_response
-from backend.app.services.pinecone_service import store_embeddings, query_embeddings
-from utils.document_processor import chunk_text
+# Add the parent directory to sys.path to enable absolute imports
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+# Use absolute imports instead of relative imports
+from services.openai_service import generate_embeddings, generate_response
+from services.pinecone_service import store_embeddings, query_embeddings
+from services.document_processor import chunk_text
 
 # Define lifespan context manager to replace on_event
 @asynccontextmanager
@@ -47,7 +52,7 @@ async def process_markdown_file(file_path):
 
 async def load_and_process_documents():
     """Load all markdown files from model/data directory and process them."""
-    data_dir = "../model/data"
+    data_dir = "./model/data"
     os.makedirs(data_dir, exist_ok=True)
     markdown_files = glob.glob(os.path.join(data_dir, "*.md"))
     
